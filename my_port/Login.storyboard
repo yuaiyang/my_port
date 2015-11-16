@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2lP-lQ-FVZ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Daohang View Controller-->
+        <scene sceneID="Txf-xg-a0A">
+            <objects>
+                <viewController id="2lP-lQ-FVZ" customClass="DaohangViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TvE-DI-DhX"/>
+                        <viewControllerLayoutGuide type="bottom" id="N6L-Tz-fIQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iIf-cV-kfW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F7d-3A-hva">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rVg-qy-Iv2" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="1800" height="599"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="EZ副本.png" translatesAutoresizingMaskIntoConstraints="NO" id="wh6-Wj-fw6">
+                                                <rect key="frame" x="100" y="90" width="100" height="100"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="huangzi.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="V3f-9U-VFh">
+                                                <rect key="frame" x="364" y="90" width="100" height="100"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="卡牌.png" translatesAutoresizingMaskIntoConstraints="NO" id="FM7-ta-mNT">
+                                                <rect key="frame" x="235" y="90" width="100" height="100"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4n-ru-FnU">
+                                                <rect key="frame" x="376" y="249" width="88" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="88" id="G0V-fH-lkt"/>
+                                                    <constraint firstAttribute="height" constant="60" id="oCh-rb-crL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <state key="normal" title="God Pit">
+                                                    <color key="titleColor" red="0.40127482322531982" green="0.6000182148515415" blue="0.75211095328282829" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="loginButton:" destination="2lP-lQ-FVZ" eventType="touchUpInside" id="dAf-WS-7Nn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="V3f-9U-VFh" secondAttribute="trailing" id="0X6-W3-MB4"/>
+                                            <constraint firstItem="FM7-ta-mNT" firstAttribute="width" secondItem="wh6-Wj-fw6" secondAttribute="width" id="4U0-86-IZq"/>
+                                            <constraint firstItem="V3f-9U-VFh" firstAttribute="top" secondItem="rVg-qy-Iv2" secondAttribute="top" id="73M-db-VCZ"/>
+                                            <constraint firstAttribute="bottom" secondItem="V3f-9U-VFh" secondAttribute="bottom" id="Kty-wL-NMc"/>
+                                            <constraint firstAttribute="bottom" secondItem="f4n-ru-FnU" secondAttribute="bottom" constant="55" id="VR6-7X-S38"/>
+                                            <constraint firstAttribute="bottom" secondItem="FM7-ta-mNT" secondAttribute="bottom" id="Wp8-ro-IvT"/>
+                                            <constraint firstAttribute="bottom" secondItem="wh6-Wj-fw6" secondAttribute="bottom" id="bFW-ki-dCa"/>
+                                            <constraint firstItem="FM7-ta-mNT" firstAttribute="top" secondItem="rVg-qy-Iv2" secondAttribute="top" id="dZA-b5-Iqc"/>
+                                            <constraint firstItem="V3f-9U-VFh" firstAttribute="leading" secondItem="FM7-ta-mNT" secondAttribute="trailing" id="fWH-EZ-GqQ"/>
+                                            <constraint firstItem="wh6-Wj-fw6" firstAttribute="leading" secondItem="rVg-qy-Iv2" secondAttribute="leading" id="lhC-XS-nzw"/>
+                                            <constraint firstItem="wh6-Wj-fw6" firstAttribute="top" secondItem="rVg-qy-Iv2" secondAttribute="top" id="oEz-8i-eSO"/>
+                                            <constraint firstItem="f4n-ru-FnU" firstAttribute="centerX" secondItem="V3f-9U-VFh" secondAttribute="centerX" id="uen-wq-mtg"/>
+                                            <constraint firstItem="FM7-ta-mNT" firstAttribute="leading" secondItem="wh6-Wj-fw6" secondAttribute="trailing" id="zsg-7z-Mk1"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wh6-Wj-fw6" secondAttribute="width" id="0dO-XC-4xp"/>
+                                    <constraint firstItem="rVg-qy-Iv2" firstAttribute="width" secondItem="F7d-3A-hva" secondAttribute="width" multiplier="3" id="3cz-rU-Ogv"/>
+                                    <constraint firstAttribute="trailing" secondItem="rVg-qy-Iv2" secondAttribute="trailing" id="5JB-A0-wzz"/>
+                                    <constraint firstItem="rVg-qy-Iv2" firstAttribute="leading" secondItem="F7d-3A-hva" secondAttribute="leading" id="93K-41-zSr"/>
+                                    <constraint firstAttribute="bottom" secondItem="rVg-qy-Iv2" secondAttribute="bottom" id="WNx-V0-JRZ"/>
+                                    <constraint firstItem="rVg-qy-Iv2" firstAttribute="centerY" secondItem="F7d-3A-hva" secondAttribute="centerY" id="v42-Ha-1xf"/>
+                                    <constraint firstItem="rVg-qy-Iv2" firstAttribute="top" secondItem="F7d-3A-hva" secondAttribute="top" id="xRd-vl-IYD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F7d-3A-hva" firstAttribute="leading" secondItem="iIf-cV-kfW" secondAttribute="leading" id="66u-vg-xOr"/>
+                            <constraint firstAttribute="trailing" secondItem="F7d-3A-hva" secondAttribute="trailing" id="aU7-FU-mcG"/>
+                            <constraint firstItem="N6L-Tz-fIQ" firstAttribute="top" secondItem="F7d-3A-hva" secondAttribute="bottom" id="cG8-1K-1NK"/>
+                            <constraint firstItem="F7d-3A-hva" firstAttribute="top" secondItem="iIf-cV-kfW" secondAttribute="top" id="j4v-E3-ktQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonView" destination="rVg-qy-Iv2" id="8OL-lm-DZw"/>
+                        <outlet property="loginButton" destination="f4n-ru-FnU" id="8IJ-oS-yT0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b1i-B9-3nU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="691" y="369"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="EZ副本.png" width="675" height="1200"/>
+        <image name="huangzi.jpg" width="752" height="1063"/>
+        <image name="卡牌.png" width="1200" height="1894"/>
+    </resources>
+</document>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F3FFD8A8-54A9-4D97-9875-221355AB46B6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>my_port</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857</key>
+		<string>http://www.svnchina.com/svn/firsthezi/my_port</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>my_port.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857</key>
+		<string>http://www.svnchina.com/svn/firsthezi</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://www.svnchina.com/svn/firsthezi/my_port/my_port.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857</string>
+			<key>IDESourceControlWCCName</key>
+			<string>my_port</string>
+		</dict>
+	</array>
+</dict>
+</plist>

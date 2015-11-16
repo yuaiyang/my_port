@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F3FFD8A8-54A9-4D97-9875-221355AB46B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857" : "my_port\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "my_port",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "my_port.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/firsthezi",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "97d4d9ed-fd3e-4796-93ca-f16e12c2e66e++5857"
+    }
+  ]
+}
